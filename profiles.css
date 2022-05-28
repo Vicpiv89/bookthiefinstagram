@@ -1,0 +1,226 @@
+.homebutton {
+    text-align: center;
+    float: center;
+    margin-top: 30px;
+    text-decoration: underline;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: black;
+}
+
+body {
+    background: linear-gradient(110deg, rgba(142, 0, 158, 0.498) 0%, rgba(255, 0, 221, 0.498) 50%, rgba(255, 146, 4, 0.5) 100%);
+}
+
+img {
+    display: block;
+}
+
+.container {
+    max-width: 93.5rem;
+    margin: 0 auto;
+    padding: 0 2rem;
+}
+
+.btn {
+    display: inline-block;
+    font: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    padding: 0;
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: 0.5rem auto #4d90fe;
+}
+
+.visually-hidden {
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    clip: rect(1px, 1px, 1px, 1px);
+}
+
+/* Profile Section */
+
+.profile {
+    padding: 5rem 0;
+}
+
+.profile::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.profile-image {
+    float: left;
+    width: calc(33.333% - 1rem);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 3rem;
+}
+
+.profile-image img {
+    border-radius: 50%;
+}
+
+.profile-user-settings,
+.profile-stats,
+.profile-bio {
+    float: left;
+    width: calc(66.666% - 2rem);
+}
+
+.profile-user-name {
+    display: inline-block;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.profile-stats {
+    margin-top: 2.3rem;
+}
+
+.profile-stats li {
+    display: inline-block;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    margin-right: 4rem;
+    cursor: pointer;
+}
+
+.profile-stats li:last-of-type {
+    margin-right: 0;
+}
+
+.profile-bio {
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.5;
+    margin-top: 2.3rem;
+}
+
+.profile-real-name,
+.profile-stat-count,
+.profile-edit-btn {
+    font-weight: 600;
+}
+
+.highlight img {
+    border-radius: 50%;
+    margin: auto;
+    height: 150px;
+    width: 150px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgba(223, 0, 197, 0.298);
+}
+
+.highlight {
+    display: block;
+    float: left;
+    margin-left: 30px;
+}
+
+.highlights {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.posttitle {
+    text-align: center; 
+    display: block;
+}
+
+/*
+
+THIS IS NOW GALLERY
+
+
+GALLERY
+
+
+GALLERY
+
+*/
+
+div.gallery {
+    width: 33%;
+    float: left;
+    margin-top: 30px;
+  }
+  
+  div.postimg:hover {
+    opacity: 50%;
+  }
+  
+  div.postimg img {
+    width: 300px;
+    height: 300px;
+    margin: auto;
+    border-radius: 5%;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+  .description {
+      text-align: center;
+      color: black;
+  }
+
+  .description img {
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 20px;
+      margin-bottom: 10px;
+  }
+
+  .comments img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+
+.comments {
+    text-align: center;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.comment {
+    text-align: center;
+    color: white;
+}
+
+.highlightstitle {
+    margin-bottom: 20px;
+}
+
+
+/* Loader */
+
+.loader {
+    width: 5rem;
+    height: 5rem;
+    border: 0.6rem solid #999;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    margin: 0 auto;
+    animation: loader 500ms linear infinite;
+}
