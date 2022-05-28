@@ -196,6 +196,11 @@ div.gallery {
     margin-bottom: 5px;
 }
 
+.highlight a {
+    color: black;
+    text-decoration: none;
+}
+
 .comments {
     text-align: center;
     color: black;
